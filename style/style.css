@@ -1,0 +1,128 @@
+/* Typography-strt */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color:gray;
+    font-family: 'Libre Franklin', sans-serif;
+    transition:all 1s;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-size:1rem;
+}
+
+img{
+    width:100%;
+    height:auto;
+}
+
+ul{
+    list-style-type:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.clear{
+    overflow:hidden;
+}
+
+.container-fluid{
+    width:100%;
+}
+
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+
+.flex{
+    display:flex;
+}
+
+
+
+/* Typography-end */
+
+/* header-navbar-part-start */
+#header-nav{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1302%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(200%2c 123%2c 156%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c71 C 70%2c120.2 210%2c286.4 350%2c317 C 490%2c347.6 560%2c225.8 700%2c224 C 840%2c222.2 910%2c345.4 1050%2c308 C 1190%2c270.6 1330%2c91.2 1400%2c37L1400 500L0 500z' fill='rgba(208%2c 30%2c 136%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1302'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+}
+
+/* .navbar{
+    background-color:green;
+} */
+.navbar>ul>li{
+    margin-right:5rem;
+    padding:1rem;
+}
+.navbar>ul>li>a{
+    
+    color:rgb(83, 124, 7);
+    transition:all 0.5s;
+    font-size:1.2rem;
+    font-weight: 700;
+    
+    
+}
+.navbar>ul>li>a:hover{
+    background-color:orchid;
+    padding:0.5rem 1rem;
+    border-radius:0.5rem;
+    color:aqua;
+    border:1px solid ;
+}
+/* header-navbar-part-end */
+
+/*  protfolio-part-start */
+.protfolio{
+    padding-bottom:10rem;
+}
+
+.protfolio-title{
+    width:50%;
+}
+.protfolio-title>.title-one{
+    font-size:5.5rem;
+    margin-top:1.5rem;
+    margin-bottom:5rem;
+}
+.protfolio-title>.title-two{
+    font-size:1.5rem;
+    color:blue;
+}
+.protfolio-title>p{
+    margin-top:3rem;
+    text-align:justify;
+    margin-bottom:1rem;
+}
+.protfolio-title>a{
+    background-color:black;
+    padding:0.5rem 1.5rem;
+    border:2px solid orange;
+    border-radius:5px;
+    color:orange;
+    font-weight:700;
+    display:inline-block;
+}
+.protfolio-img{
+    width:50%;
+    position:relative;
+    
+}
+.protfolio-img>img{
+    border-radius:100%;
+    width:55%;
+    position:absolute;
+    right:0;
+    top:0;
+}
+/*  protfolio-part-end */
