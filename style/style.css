@@ -1,49 +1,54 @@
 /* Typography-strt */
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Libre Franklin', sans-serif;
-    transition:all 1s;
+    transition: all 1s;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-size:1rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1rem;
 }
 
-img{
-    width:100%;
-    height:auto;
+img {
+    width: 100%;
+    height: auto;
 }
 
-ul{
-    list-style-type:none;
+ul {
+    list-style-type: none;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-.clear{
-    overflow:hidden;
+.clear {
+    overflow: hidden;
 }
 
-.container-fluid{
-    width:100%;
+.container-fluid {
+    width: 100%;
 }
 
-.container{
-    width:1200px;
-    margin:0 auto;
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
-.flex{
-    display:flex;
+.flex {
+    display: flex;
 }
 
 
@@ -51,7 +56,7 @@ a{
 /* Typography-end */
 
 /* header-navbar-part-start */
-#header-nav{
+#header-nav {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1302%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(200%2c 123%2c 156%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c71 C 70%2c120.2 210%2c286.4 350%2c317 C 490%2c347.6 560%2c225.8 700%2c224 C 840%2c222.2 910%2c345.4 1050%2c308 C 1190%2c270.6 1330%2c91.2 1400%2c37L1400 500L0 500z' fill='rgba(208%2c 30%2c 136%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1302'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
 }
@@ -59,186 +64,396 @@ a{
 /* .navbar{
     background-color:green;
 } */
-.navbar>ul>li{
-    margin-right:5rem;
-    padding:1rem;
+.navbar>ul>li {
+    margin-right: 5rem;
+    padding: 1rem;
 }
-.navbar>ul>li>a{
-    
-    color:rgb(83, 124, 7);
-    transition:all 0.5s;
-    font-size:1.2rem;
+
+.navbar>ul>li>a {
+
+    color: rgb(83, 124, 7);
+    transition: all 0.5s;
+    font-size: 1.2rem;
     font-weight: 700;
-    
-    
+
+
 }
-.navbar>ul>li>a:hover{
-    background-color:orchid;
-    padding:0.5rem 1rem;
-    border-radius:0.5rem;
-    color:aqua;
-    border:1px solid ;
+
+.navbar>ul>li>a:hover {
+    background-color: orchid;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    color: aqua;
+    border: 1px solid;
 }
+
 /* header-navbar-part-end */
 
 /*  protfolio-part-start */
-.protfolio{
-    padding-bottom:1rem;
+.protfolio {
+    padding-bottom: 1rem;
 }
 
-.protfolio-title{
-    width:50%;
+.protfolio-title {
+    width: 50%;
 }
-.protfolio-title>.title-one{
-    font-size:5.5rem;
-    margin-top:1.5rem;
-    margin-bottom:5rem;
-    color:orangered;
+
+.protfolio-title>.title-one {
+    font-size: 5.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+    color: orangered;
 }
-.protfolio-title>.title-two{
-    font-size:1.5rem;
-    color:blue;
+
+.protfolio-title>.title-two {
+    font-size: 1.5rem;
+    color: blue;
 }
-.protfolio-title>p{
-    margin-top:3rem;
-    text-align:justify;
-    margin-bottom:1rem;
+
+.protfolio-title>p {
+    margin-top: 3rem;
+    text-align: justify;
+    margin-bottom: 1rem;
 }
-.protfolio-title>a{
-    background-color:black;
-    padding:0.5rem 1.5rem;
-    border:2px solid orange;
-    border-radius:5px;
-    color:orange;
-    font-weight:700;
-    display:inline-block;
+
+.protfolio-title>a {
+    background-color: black;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: orange;
+    font-weight: 700;
+    display: inline-block;
 }
-.protfolio-img{
-    width:50%;
-    position:relative;
-    
+
+.protfolio-img {
+    width: 50%;
+    position: relative;
+
 }
-.protfolio-img>img{
-    border-radius:100%;
-    width:55%;
-    position:absolute;
-    right:0;
-    top:0;
+
+.protfolio-img>img {
+    border-radius: 100%;
+    width: 55%;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
+
 /*  protfolio-part-end */
 
 /* project-part-start */
-#project{
+#project {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1344%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(208%2c 30%2c 136%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c363 C 93.4%2c300.6 280.2%2c55.8 467%2c51 C 653.8%2c46.2 747.4%2c324.8 934%2c339 C 1120.6%2c353.2 1306.8%2c165.4 1400%2c122L1400 500L0 500z' fill='rgba(188%2c 173%2c 182%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1344'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    margin-top:-3rem;
-    
+    margin-top: -3rem;
+
 }
-.project-content{
-    padding-top:5rem;
+
+.project-content {
+    padding-top: 5rem;
 }
-.project-content>.project-title{
-    font-size:3.5rem;
-    margin-top:1.5rem;
-    margin-bottom:2rem;
-    padding:1rem;
-    border-radius:5px;
+
+.project-content>.project-title {
+    font-size: 3.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    width:30%;
-    background-color:rgba(208, 30, 136, 1);
-    color:rgb(102, 22, 177)
+    width: 30%;
+    background-color: rgba(208, 30, 136, 1);
+    color: rgb(102, 22, 177)
 }
 
 
-.project-box>.project-sub-title{
-    font-size:1.5rem;
-    margin-top:1.5rem;
-    margin-bottom:2rem;
-    padding:1rem;
-    border-radius:5px;
+.project-box>.project-sub-title {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
     border-top-right-radius: 5rem;
     border-bottom-right-radius: 5rem;
-    width:30%;
-    background-color:rgba(208, 30, 136, 1);
-    color:rgb(190, 182, 219);
-    text-align:center;
-   
+    width: 30%;
+    background-color: rgba(208, 30, 136, 1);
+    color: rgb(190, 182, 219);
+    text-align: center;
+
 }
-.project-box>.style-title-two{
-    font-size:1.5rem;
-    margin-top:1.5rem;
-    margin-bottom:2rem;
-    padding:1rem;
-    border-radius:5px;
+
+.project-box>.style-title-two {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-radius: 5px;
     border-top-left-radius: 5rem;
     border-bottom-left-radius: 5rem;
-    width:60%;
-    background-color:rgba(208, 30, 136, 1);
-    color:rgb(190, 182, 219);
-    text-align:center; 
+    width: 60%;
+    background-color: rgba(208, 30, 136, 1);
+    color: rgb(190, 182, 219);
+    text-align: center;
 }
 
-.project-img{
-    margin-left:3rem;
-    width:60%;
-  
-   
+.project-img {
+    margin-left: 3rem;
+    width: 60%;
+
+
 }
-.project-img>img{
-  border:2px solid white;
-  border-radius:1rem;
+
+.project-img>img {
+    border: 2px solid white;
+    border-radius: 1rem;
 }
+
 /* project-part-end */
 
 /* Experience-part-start */
-#experience{
+#experience {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1419%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(188%2c 173%2c 182%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c18 C 140%2c109.2 420%2c428 700%2c474 C 980%2c520 1260%2c293.2 1400%2c248L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1419'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    background-repeat:no-repeat;
-    margin-top:-6.2rem;
-   
-}
-.experience-content{
-   padding-top:15rem;
-   
-}
-.experience-content>h1{
-    font-size:3.5rem;
-    padding:1rem;
-    border-radius:5px;
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
-    width:40%;
-    background-color:rgba(208, 30, 136, 1);
-    color:rgb(102, 22, 177)
+    background-repeat: no-repeat;
+    margin-top: -6.2rem;
+
 }
 
-.experience-box>h2{
-    font-size:1.5rem;
-    padding:1rem;
-    border-radius:50px;
-    border:2px solid rgba(235, 31, 208, 0.527);
+.experience-content {
+    padding-top: 15rem;
+
+}
+
+.experience-content>h1 {
+    font-size: 3.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width: 40%;
+    background-color: rgba(208, 30, 136, 1);
+    color: rgb(102, 22, 177)
+}
+
+.experience-box>h2 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50px;
+    border: 2px solid rgba(235, 31, 208, 0.527);
     /* border-top-right-radius:5rem;
     border-bottom-right-radius: 5rem; */
-    width:21%;
-    background-color:rgba(208, 30, 136, 1);
-    color:rgb(154, 177, 22);
-    margin-bottom:1rem;
-    
+    width: 21%;
+    background-color: rgba(208, 30, 136, 1);
+    color: rgb(154, 177, 22);
+    margin-bottom: 1rem;
+
 }
-.experience-box>h3{
-    color:rgb(11, 165, 165);
-    margin-bottom:1rem;
+
+.experience-box>h3 {
+    color: rgb(11, 165, 165);
+    margin-bottom: 1rem;
 }
-.experience-box>p{
-    text-align:justify;
-    width:40%;
-    color:rgb(236, 243, 221);
-   
+
+.experience-box>p {
+    text-align: justify;
+    width: 40%;
+    color: rgb(236, 243, 221);
+
 }
-.experience-svg{
+
+.experience-svg {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1449%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c134 C 93.4%2c206.4 280.2%2c486.4 467%2c496 C 653.8%2c505.6 747.4%2c228.2 934%2c182 C 1120.6%2c135.8 1306.8%2c248.4 1400%2c265L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1449'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-    height:20rem;
-    margin-top:-12rem;
+    height: 20rem;
+    margin-top: -12rem;
 }
+
 /* Experience-part-end */
+
+/* contact-part-start */
+#contact {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1680%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(213%2c 192%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c207 C 93.4%2c240 280.2%2c364.8 467%2c372 C 653.8%2c379.2 747.4%2c252.6 934%2c243 C 1120.6%2c233.4 1306.8%2c307.8 1400%2c324L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1680'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+}
+
+.contact-content {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.contact-content>h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    border: 2px solid;
+    border-radius: 3rem;
+    width: 40%;
+    background-color: rgb(51, 24, 24);
+    color: orange;
+    position: absolute;
+    right: 30%;
+}
+
+.contact-form {
+    margin-top: 7rem;
+    padding-bottom: 1rem;
+}
+
+.contact-form .name {
+    margin-bottom: 1rem;
+}
+
+.name .first-name,
+.name .last-name {
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 1rem;
+
+}
+
+.contact-form .email {
+    margin-bottom: 1rem;
+}
+
+.email .input-email {
+    width: 40%;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+}
+
+.contact-form>.massage {
+    margin-bottom: 1rem;
+}
+
+.massage .input-massage {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    text-indent: -16rem;
+}
+
+.btn-submit {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+/* contact-part-end */
+
+/* about-part-start */
+#about {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1782%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(213%2c 192%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c94 C 280%2c129.8 1120%2c237.2 1400%2c273L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1782'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    margin-top: -0.8rem;
+}
+
+.about-content {
+    padding-bottom: 5rem;
+}
+
+.about-img {
+    margin-bottom: 1rem;
+}
+
+.about-img>img {
+    width: 20%;
+    border-radius: 100%;
+
+}
+
+.about-img>h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 3rem;
+    width: 20%;
+    height: 10%;
+    color: rgb(124, 24, 218);
+    margin-top: 14rem;
+
+
+}
+
+.about-paragraph {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+}
+
+.about-paragraph>p {
+    text-align: justify;
+    color: rgb(179, 194, 194);
+    margin-bottom: 2rem;
+}
+
+.about-paragraph>.download-cv {
+    background-color: green;
+    padding: 1rem 2.5rem;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+/* about-part-end */
+
+/* skill-part-start */
+#skill {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1893%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(213%2c 192%2c 205%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c344 C 46.8%2c281.2 140.4%2c42.8 234%2c30 C 327.6%2c17.2 374.4%2c278.6 468%2c280 C 561.6%2c281.4 608.4%2c20 702%2c37 C 795.6%2c54 842.4%2c342.6 936%2c365 C 1029.6%2c387.4 1077.2%2c124.2 1170%2c149 C 1262.8%2c173.8 1354%2c421 1400%2c489L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1893'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    margin-top: -1rem;
+}
+
+.skill-content {
+    padding-top: 1rem;
+}
+
+.skill-title {
+    margin-bottom: 2rem;
+}
+
+.skill-title>h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: 17%;
+    border-radius: 3rem;
+    border-bottom: 3px solid rgb(161, 161, 148);
+    color: rgb(218, 140, 24);
+
+}
+
+.progress>h4 {
+    color: rgb(89, 8, 124)
+}
+
+.progress>.progress-bar {
+    width: 50%;
+    padding: 1rem;
+
+}
+
+/* skill-part-end */
+
+/* footer-part-start */
+#footer {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1952%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c391 C 140%2c352.8 420%2c212.2 700%2c200 C 980%2c187.8 1260%2c304 1400%2c330L1400 500L0 500z' fill='rgba(3%2c 2%2c 23%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1952'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+}
+
+.footer-content {
+    height: 30rem;
+    position: relative;
+}
+
+.footer-content>p {
+    position: absolute;
+    bottom: 0;
+    right: 40%;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+/* footer-part-end */
