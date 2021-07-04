@@ -8,7 +8,6 @@
 }
 
 body{
-    background-color:gray;
     font-family: 'Libre Franklin', sans-serif;
     transition:all 1s;
 }
@@ -84,7 +83,7 @@ a{
 
 /*  protfolio-part-start */
 .protfolio{
-    padding-bottom:10rem;
+    padding-bottom:1rem;
 }
 
 .protfolio-title{
@@ -94,6 +93,7 @@ a{
     font-size:5.5rem;
     margin-top:1.5rem;
     margin-bottom:5rem;
+    color:orangered;
 }
 .protfolio-title>.title-two{
     font-size:1.5rem;
@@ -126,3 +126,119 @@ a{
     top:0;
 }
 /*  protfolio-part-end */
+
+/* project-part-start */
+#project{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1344%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(208%2c 30%2c 136%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c363 C 93.4%2c300.6 280.2%2c55.8 467%2c51 C 653.8%2c46.2 747.4%2c324.8 934%2c339 C 1120.6%2c353.2 1306.8%2c165.4 1400%2c122L1400 500L0 500z' fill='rgba(188%2c 173%2c 182%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1344'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    margin-top:-3rem;
+    
+}
+.project-content{
+    padding-top:5rem;
+}
+.project-content>.project-title{
+    font-size:3.5rem;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+    padding:1rem;
+    border-radius:5px;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width:30%;
+    background-color:rgba(208, 30, 136, 1);
+    color:rgb(102, 22, 177)
+}
+
+
+.project-box>.project-sub-title{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+    padding:1rem;
+    border-radius:5px;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width:30%;
+    background-color:rgba(208, 30, 136, 1);
+    color:rgb(190, 182, 219);
+    text-align:center;
+   
+}
+.project-box>.style-title-two{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+    padding:1rem;
+    border-radius:5px;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+    width:60%;
+    background-color:rgba(208, 30, 136, 1);
+    color:rgb(190, 182, 219);
+    text-align:center; 
+}
+
+.project-img{
+    margin-left:3rem;
+    width:60%;
+  
+   
+}
+.project-img>img{
+  border:2px solid white;
+  border-radius:1rem;
+}
+/* project-part-end */
+
+/* Experience-part-start */
+#experience{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1419%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(188%2c 173%2c 182%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c18 C 140%2c109.2 420%2c428 700%2c474 C 980%2c520 1260%2c293.2 1400%2c248L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1419'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat:no-repeat;
+    margin-top:-6.2rem;
+   
+}
+.experience-content{
+   padding-top:15rem;
+   
+}
+.experience-content>h1{
+    font-size:3.5rem;
+    padding:1rem;
+    border-radius:5px;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    width:40%;
+    background-color:rgba(208, 30, 136, 1);
+    color:rgb(102, 22, 177)
+}
+
+.experience-box>h2{
+    font-size:1.5rem;
+    padding:1rem;
+    border-radius:50px;
+    border:2px solid rgba(235, 31, 208, 0.527);
+    /* border-top-right-radius:5rem;
+    border-bottom-right-radius: 5rem; */
+    width:21%;
+    background-color:rgba(208, 30, 136, 1);
+    color:rgb(154, 177, 22);
+    margin-bottom:1rem;
+    
+}
+.experience-box>h3{
+    color:rgb(11, 165, 165);
+    margin-bottom:1rem;
+}
+.experience-box>p{
+    text-align:justify;
+    width:40%;
+    color:rgb(236, 243, 221);
+   
+}
+.experience-svg{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1449%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c134 C 93.4%2c206.4 280.2%2c486.4 467%2c496 C 653.8%2c505.6 747.4%2c228.2 934%2c182 C 1120.6%2c135.8 1306.8%2c248.4 1400%2c265L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1449'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    height:20rem;
+    margin-top:-12rem;
+}
+/* Experience-part-end */
