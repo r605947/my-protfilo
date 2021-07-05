@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Libre Franklin', sans-serif;
-    transition: all 1s;
+    
 }
 
 h1,
@@ -67,10 +67,11 @@ a {
 .navbar>ul>li {
     margin-right: 5rem;
     padding: 1rem;
+   
 }
 
 .navbar>ul>li>a {
-
+    padding: 1rem;
     color: rgb(83, 124, 7);
     transition: all 0.5s;
     font-size: 1.2rem;
@@ -107,7 +108,7 @@ a {
 
 .protfolio-title>.title-two {
     font-size: 1.5rem;
-    color: blue;
+    color: rgb(184, 207, 53);
 }
 
 .protfolio-title>p {
@@ -200,6 +201,8 @@ a {
 .project-img {
     margin-left: 3rem;
     width: 60%;
+    height:20%;
+    overflow:scroll;
 
 
 }
@@ -215,7 +218,7 @@ a {
 #experience {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1400' height='500' preserveAspectRatio='none' viewBox='0 0 1400 500'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1419%26quot%3b)' fill='none'%3e%3crect width='1400' height='500' x='0' y='0' fill='rgba(188%2c 173%2c 182%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c18 C 140%2c109.2 420%2c428 700%2c474 C 980%2c520 1260%2c293.2 1400%2c248L1400 500L0 500z' fill='rgba(208%2c 31%2c 137%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1419'%3e%3crect width='1400' height='500' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    margin-top: -6.2rem;
+    margin-top: -55.2rem;
 
 }
 
